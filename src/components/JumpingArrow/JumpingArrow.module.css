@@ -1,0 +1,15 @@
+@keyframes jumpingAnimation {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 1.5rem, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.container {
+  animation: jumpingAnimation 1s ease-in infinite;
+}

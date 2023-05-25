@@ -1,0 +1,30 @@
+button {
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  color: var(--default-dark);
+  background-color: var(--default-light);
+
+  border: none;
+
+  display: flex;
+
+  align-items: center;
+}
+
+button:active {
+  background-color: var(--active-light);
+}
+
+.iconContainer {
+  width: 4.8rem;
+  height: 4.8rem;
+
+  display: grid;
+
+  place-items: center;
+}
+
+.textContainer {
+  padding: 0.8rem;
+  font-size: 2.4rem;
+}

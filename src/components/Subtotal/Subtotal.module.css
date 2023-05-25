@@ -1,0 +1,109 @@
+.subtotalContainer {
+  margin-top: 20rem;
+
+  width: 93rem;
+  height: 80rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.checkEntryPoint {
+  width: 80rem;
+  height: 1.4rem;
+
+  border-radius: 0.8rem;
+  background-color: #85858b;
+
+  border: 0.3rem solid #aeaeb2;
+  outline: 0.1rem solid #85858b;
+
+  position: relative;
+}
+
+.checkBody {
+  width: 76rem;
+  height: 80rem;
+
+  position: absolute;
+
+  left: 1.85rem;
+  top: 0.5rem;
+
+  border: 0.1rem solid #ebebecaa;
+  border-radius: 2px;
+
+  box-shadow: 0 0.4rem 1rem rgba(52, 52, 62, 0.3),
+    0 1rem 3rem rgba(52, 52, 62, 0.15);
+
+  background: var(--default-dark)
+    linear-gradient(
+      180deg,
+      #e8e8e8 0%,
+      #ffffff 8.21%,
+      #ffffff 53.72%,
+      #e8e8e8 93.1%
+    );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 9rem 8rem 8rem 9rem;
+}
+
+.upperGradient {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 76rem;
+  height: 0.8rem;
+
+  background: linear-gradient(
+    180deg,
+    #d6d6d8 14.55%,
+    rgba(194, 194, 197, 0) 52.85%
+  );
+}
+
+.priceTitle {
+  font-size: 3.6rem;
+  color: #a0a0a0;
+}
+
+.priceMain {
+  font-size: 10.4rem;
+  font-weight: 700;
+
+  margin-bottom: 4.4rem;
+}
+
+.priceSecondary {
+  font-size: 5.6rem;
+  font-weight: 700;
+
+  margin-right: 0.8rem;
+}
+
+.cardMessage {
+  font-size: 5.6rem;
+  color: #00923a;
+}
+
+.checkBodyCube {
+  height: 3.35rem;
+  width: 3.35rem;
+
+  position: absolute;
+
+  bottom: calc(-3.25rem / 2);
+
+  border-radius: 0.2rem;
+  box-shadow: 0.4rem 0.4rem 0.55rem rgba(52, 52, 62, 0.2);
+
+  background-color: #e8e8e8;
+
+  transform: rotate(45deg);
+}

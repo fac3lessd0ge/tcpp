@@ -1,0 +1,36 @@
+.paperContainer {
+  position: relative;
+
+  height: calc(100vh - 20rem);
+  background-color: var(--default-light);
+  border-radius: 0 0 8rem 8rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.detailsContainer {
+  position: absolute;
+
+  right: 8rem;
+  top: 2rem;
+}
+
+.arrowContainer {
+  position: absolute;
+
+  bottom: 6rem;
+  right: 8rem;
+}
+
+.buttonsContainer {
+  position: absolute;
+
+  bottom: 0;
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  padding: 6rem 8rem 6rem 8rem;
+}
