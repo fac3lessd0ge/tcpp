@@ -50,6 +50,7 @@
   align-items: center;
 
   padding: 9rem 8rem 8rem 9rem;
+
 }
 
 .upperGradient {
@@ -98,12 +99,23 @@
 
   position: absolute;
 
-  bottom: calc(-3.25rem / 2);
+  bottom: calc(-3.35rem / 2);
 
   border-radius: 0.2rem;
-  box-shadow: 0.4rem 0.4rem 0.55rem rgba(52, 52, 62, 0.2);
+  box-shadow: 0.5rem 0.4rem 0.5rem rgba(52, 52, 62, 0.25);
 
   background-color: #e8e8e8;
 
   transform: rotate(45deg);
+}
+
+
+@media (height <= 1400px) {
+  .checkBody {
+    height: 60rem;
+  }
+
+  .subtotalContainer {
+    margin-top: 5rem;
+  }
 }
